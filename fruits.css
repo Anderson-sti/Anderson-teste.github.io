@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: rgb(195, 192, 192);
+}
+
+.one {
+    width: 150px;
+    height: 150px;
+}
+
+img {
+    border: 1px solid red;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.border1 {
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.center1 {
+    background-color: lightskyblue;
+    width: 50%;
+    border-radius: 10px;
+    text-align: center;
+    margin: 1rem auto;
+    font-size: 2rem;
+}
+
+.p,
+.p1,
+.p2,
+.p3,
+.p4,
+.p5,
+.p6,
+.p7,
+.p8,
+.p9,
+.p10,
+.p11,
+.p12,
+.p13,
+.p14,
+.p15,
+.p16,
+.p17,
+.p18,
+.p19 {
+    text-align: center;
+    border: 1px solid red;
+    border-radius: 15px;
+    color: white;
+    background-color: black;
+    font-weight: bold;
+}
+
+@media all and (max-width: 891px) {
+    .center1 {
+        width: 65%;
+        font-size: 2rem;
+    }
+}
+@media all and (max-width: 494px) {
+    .center1 {
+       font-size: 1.2rem;
+    }
+}
+@media all and (max-width: 375px) {
+    .one {
+        width: 8rem;
+        height: 6rem;
+    }
+    .center1 {
+        width: 90%;
+        font-size: 1rem;
+    }
+    .border1 {
+        gap: 1px;
+        width: 90%;
+        position: relative;
+        left: 1rem;
+    }
+}
