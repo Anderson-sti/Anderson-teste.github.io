@@ -6,12 +6,12 @@ body {
     background-color: rgb(195, 192, 192);
 }
 
-.one {
+div>img {
     width: 150px;
     height: 150px;
 }
 
-img {
+div div {
     border: 1px solid red;
     border-radius: 10px;
     background-color: white;
@@ -19,9 +19,9 @@ img {
 
 .border1 {
     display: flex;
-    justify-content: space-around;
-    gap: 1rem;
-    margin-bottom: 2rem;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
 }
 
 .center1 {
@@ -33,58 +33,47 @@ img {
     font-size: 2rem;
 }
 
-.p,
-.p1,
-.p2,
-.p3,
-.p4,
-.p5,
-.p6,
-.p7,
-.p8,
-.p9,
-.p10,
-.p11,
-.p12,
-.p13,
-.p14,
-.p15,
-.p16,
-.p17,
-.p18,
-.p19 {
+div>p{
     text-align: center;
     border: 1px solid red;
-    border-radius: 15px;
+    border-radius: 0 0 10px 10px;
     color: white;
     background-color: black;
     font-weight: bold;
 }
 
-@media all and (max-width: 891px) {
+@media all and (max-width: 890px) {
     .center1 {
         width: 65%;
         font-size: 2rem;
     }
 }
-@media all and (max-width: 494px) {
+
+@media all and (max-width: 684px) {
     .center1 {
-       font-size: 1.2rem;
+        font-size: 1.2rem;
+    }
+}
+
+@media all and (max-width: 519px) {
+    div div {
+        width: 120px;
+        height: 178px;
+    }
+}
+@media all and (max-width: 423px) {
+    div div {
+        width: 100px;
     }
 }
 @media all and (max-width: 375px) {
-    .one {
-        width: 8rem;
-        height: 6rem;
-    }
     .center1 {
         width: 90%;
         font-size: 1rem;
     }
-    .border1 {
-        gap: 1px;
-        width: 90%;
-        position: relative;
-        left: 1rem;
+}
+@media all and (max-width: 363px) {
+    div div{
+        width: 26%;
     }
 }
