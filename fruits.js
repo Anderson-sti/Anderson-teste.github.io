@@ -1,4 +1,4 @@
-const border1 = document.querySelector('#border1')
+const border1 = document.querySelector('.border1')
 for (element of border1.children) {
     element.setAttribute('class', 'cards_Fruits')
 }
