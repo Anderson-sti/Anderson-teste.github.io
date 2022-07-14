@@ -16,8 +16,10 @@ div div {
     border-radius: 10px;
     background-color: white;
 }
-
-.border1 {
+.invisible{
+    visibility: hidden;
+}
+#border1 {
     display: flex;
     justify-content: center;
     gap: 2rem;
