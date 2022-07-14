@@ -6,7 +6,7 @@ body {
     background-color: rgb(195, 192, 192);
 }
 
-div>img {
+img{
     width: 150px;
     height: 150px;
 }
@@ -56,13 +56,13 @@ div>p{
 }
 
 @media all and (max-width: 519px) {
-    div div {
-        width: 120px;
-        height: 178px;
+    img {
+        width: 100px;
+        height: 158px;
     }
 }
 @media all and (max-width: 423px) {
-    div div {
+    img {
         width: 100px;
     }
 }
@@ -73,7 +73,8 @@ div>p{
     }
 }
 @media all and (max-width: 363px) {
-    div div{
-        width: 26%;
+    img {
+        width: 100px;
+        height: 120px;
     }
 }
