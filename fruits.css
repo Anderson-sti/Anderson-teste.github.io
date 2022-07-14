@@ -19,7 +19,7 @@ div div {
 .invisible{
     visibility: hidden;
 }
-#border1 {
+.border1 {
     display: flex;
     justify-content: center;
     gap: 2rem;
