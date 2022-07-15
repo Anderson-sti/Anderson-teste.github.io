@@ -6,6 +6,13 @@ const cards_Fruits = document.querySelectorAll('.cards_Fruits')
 cards_Fruits.forEach((element) => {
     element.addEventListener('mouseover', () => {
         element.children[1].classList.remove('invisible')
-        setTimeout(() => { element.children[1].classList.add('invisible') }, 2000)
+        setTimeout(() => { element.children[1].classList.add('invisible') }, 2500)
     })
 })
+
+const toggleButton = document.getElementById('toggleButton');
+    const naviList = document.getElementById('navi-list');
+
+    toggleButton.addEventListener('click', () => {
+        naviList.classList.toggle('active');
+    })
