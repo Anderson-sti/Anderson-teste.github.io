@@ -227,7 +227,7 @@ nav{
 @media all and (max-width: 1024px) {
     .mygod {
         flex-basis: 130%;
-        height: 1100px;
+        height: 105rem;
     }
 }
 
@@ -237,7 +237,7 @@ nav{
         font-size: 2rem;
     }
     .mygod {
-        height: 1250px;
+        height: 108rem;
     }
 }
 
